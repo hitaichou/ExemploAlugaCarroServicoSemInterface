@@ -17,7 +17,7 @@ namespace ExemploAlugaCarroServicoSemInterface.Services
             PricePerHour = pricePerHour;
             PricePerDay = pricePerDay;
         }
-
+        
         public void ProcessInvoice(CarRental carRental)
         {
             //calculo para pegar a duração de uma data para a outra
